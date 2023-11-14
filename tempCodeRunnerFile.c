@@ -1,12 +1,20 @@
 #include <stdio.h>
-int main()
+
+int main() 
 {
-    int a,b;
-    printf("enter the value a:\n");
-    scanf("%d",&a);
-    printf("enter the value b:");
-    scanf("%d",&b);
-    printf("a&b is %d\n",a&b);
-    printf("a|b is %d\n",a|b);
+    // Arithmetic operators
+    int a = 5, b = 2;
+    int sum = a + b;
+    int difference = a - b;
+    int product = a * b;
+    int quotient = a / b;
+    int remainder = a % b;
+
+    printf("Arithmetic Operators:\n");
+    printf("Sum: %d\n", sum);
+    printf("Difference: %d\n", difference);
+    printf("Product: %d\n", product);
+    printf("Quotient: %d\n", quotient);
+    printf("Remainder: %d\n", remainder);
     return 0;
 }
