@@ -27,5 +27,6 @@ int main()
       //accessing element at index 0 i.e first element 
       printf("element an arr[0]: %d\n", arr[0]);
       
-      return 0;
+      
+return 0;
 }
